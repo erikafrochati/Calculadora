@@ -3,11 +3,10 @@ from tkinter import *
 from tkinter import ttk
 
 # cores
-cor1 = "#3b3b3b" # black/preta 
+cor1 = "#363434" # black/preta 
 cor2 = "#feffff" # white/branca
 cor3 = "#2F4F4F" # DarkSlateGray
-cor4 = "#ECEFF1" # cizenta
-cor5 = "#FFAB40" # Orange/laranja
+cor4 = "#424345" # cizenta
 
 # criando a janela principal
 janela = Tk()
@@ -60,11 +59,11 @@ b_3.place(x=177, y=58)
 
 # Frame corpo
 
-b_0 = Button(frame_corpo, text='C', width=14, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
+b_0 = Button(frame_corpo, text='C', width=14, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor4, fg=cor2)
 b_0.place(x=0, y=0)
-b_1 = Button(frame_corpo, text='%', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
+b_1 = Button(frame_corpo, text='%', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor4, fg=cor2)
 b_1.place(x=118, y=0)
-b_2 = Button(frame_corpo, text='/', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
+b_2 = Button(frame_corpo, text='/', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor4, fg=cor2)
 b_2.place(x=177, y=0)
 
           
@@ -74,7 +73,7 @@ b_1 = Button(frame_corpo, text='8', width=6, height=1, relief=RAISED, overrelief
 b_1.place(x=59, y=29)
 b_2 = Button(frame_corpo, text='9', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
 b_2.place(x=118, y=29)
-b_3 = Button(frame_corpo, text='*', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
+b_3 = Button(frame_corpo, text='*', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor4, fg=cor2)
 b_3.place(x=177, y=29)
 
 b_0 = Button(frame_corpo, text='4', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
@@ -83,7 +82,7 @@ b_1 = Button(frame_corpo, text='5', width=6, height=1, relief=RAISED, overrelief
 b_1.place(x=59, y=58)
 b_2 = Button(frame_corpo, text='6', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
 b_2.place(x=118, y=58)
-b_3 = Button(frame_corpo, text='-', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
+b_3 = Button(frame_corpo, text='-', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor4, fg=cor2)
 b_3.place(x=177, y=58)
 
 b_0 = Button(frame_corpo, text='1', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
@@ -92,14 +91,14 @@ b_1 = Button(frame_corpo, text='2', width=6, height=1, relief=RAISED, overrelief
 b_1.place(x=59, y=87)
 b_2 = Button(frame_corpo, text='3', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
 b_2.place(x=118, y=87)
-b_3 = Button(frame_corpo, text='+', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
+b_3 = Button(frame_corpo, text='+', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor4, fg=cor2)
 b_3.place(x=177, y=87)
           
 b_0 = Button(frame_corpo, text='0', width=14, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
 b_0.place(x=0, y=116)
 b_1 = Button(frame_corpo, text='.', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
 b_1.place(x=118, y=116)
-b_2 = Button(frame_corpo, text='=', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
+b_2 = Button(frame_corpo, text='=', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor4, fg=cor2)
 b_2.place(x=177, y=116)
 
 
