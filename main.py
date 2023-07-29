@@ -27,6 +27,7 @@ frame_corpo.grid(row=2, column=0)
 # Funções de  Valores
 global todos_valores
 
+
 todos_valores = ''
 texto=StringVar()
 
@@ -37,7 +38,18 @@ def entrar_valores(evento):
     todos_valores = todos_valores + str(evento)
     texto.set(todos_valores)
 
-
+# Função calcular
+def calcular():
+    global todos_valores
+    
+    resultado = str(eval(todos_valores))
+    texto.set(resultado)
+    
+    todos_valores = ''
+    
+# Função para limpar a tela do calculo
+def limpar_tela()
+    
 # Configurando o frame tela
 
 Label_tela = Label(frame_tela, textvariable=texto, width=16, height=2,padx=7, anchor='e',bd=0, justify=RIGHT, font=('Ivy 18'),bg=cor3, fg=cor2)
@@ -112,7 +124,7 @@ b_0 = Button(frame_corpo, command=lambda:entrar_valores('0'), text='0', width=14
 b_0.place(x=0, y=116)
 b_1 = Button(frame_corpo, command=lambda:entrar_valores('.'), text='.', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor1, fg=cor2)
 b_1.place(x=118, y=116)
-b_2 = Button(frame_corpo, command=lambda:entrar_valores('='), text='=', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor4, fg=cor2)
+b_2 = Button(frame_corpo, command=calcular, text='=', width=6, height=1, relief=RAISED, overrelief="ridge",font=('Ivy 10 bold'), bg=cor4, fg=cor2)
 b_2.place(x=177, y=116)
 
 
